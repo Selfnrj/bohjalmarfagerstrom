@@ -1,0 +1,72 @@
+$gutter: 64px;
+
+body {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: 5em;
+  font-weight: 100;
+  font-feature-settings: "liga", "dlig";
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-flow {
+  list-style: none;
+  max-width: 550px;
+  margin: 0 auto;
+
+  li {
+    margin-bottom: $gutter;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.books {
+  margin-top: $gutter;
+
+  main {
+    display: flex;
+    align-items: center;
+    margin: $gutter 0;
+
+    figure {
+      float: left;
+      width: 250px;
+      margin: 0;
+      padding: 0 20px;
+    }
+  }
+
+  .bottom {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: $gutter;
+  }
+}
+
+footer {
+  margin: 20px 0;
+
+  span {
+    margin: 0 10px;
+  }
+}
