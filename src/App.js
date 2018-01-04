@@ -10,8 +10,10 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
-          <img className="bottom" src="/images/konst/header.jpg" alt="" />
-          <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
+          <div className="header">
+            <img className="header-image" src="/images/konst/header.jpg" alt="" />
+            <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
+          </div>
           <ArtFlow />
           <footer>
             <span>© 2018 Bo Hjalmar Fagerström</span>
