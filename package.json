@@ -1,6 +1,6 @@
 {
   "name": "BoHjalmarFagerstrom",
-  "homepage" : "http://bohjalmarfagerstrom.se",
+  "homepage": "http://bohjalmarfagerstrom.se",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
