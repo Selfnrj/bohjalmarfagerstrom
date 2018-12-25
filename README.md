@@ -1,6 +1,9 @@
 # bohjalmarfagerstrom
 
-Ett flöde av Bo Fagerströms konst
+Art flow build with react.js.
+
+![alt text](https://media.giphy.com/media/qMq9qQk08nhAY/giphy.gif "Art")
+
 
 ## Available Scripts
 
