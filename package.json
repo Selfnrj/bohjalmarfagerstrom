@@ -1,6 +1,6 @@
 {
   "name": "bohjalmarfagerstrom",
-  "homepage": "http://bohjalmarfagerstrom.se",
+  "homepage": "https://selfnrj.github.io/bohjalmarfagerstrom/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -54,7 +54,8 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "node scripts/build.js",
     "build": "npm-run-all build-css build-js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -97,5 +98,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
