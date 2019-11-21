@@ -1,122 +1,54 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 
 import axios from 'axios';
+import InfiniteScroll from "react-infinite-scroll-component";
 
 import { BooksFlow } from './Books';
 import './App.css';
 
-
 class App extends Component {
-  constructor(props) {
-    super(props);
 
-    // Sets up our initial state
-    this.state = {
-      error: false,
-      hasMore: true,
-      isLoading: false,
-      arts: [],
-    };
+  state = {
+    items: [],
+    hasMore: true
+  };
 
-    // Binds our scroll event handler
-    window.onscroll = () => {
-      const {
-        loadUsers,
-        state: {
-          error,
-          isLoading,
-          hasMore,
-        },
-      } = this;
-
-      // Bails early if:
-      // * there's an error
-      // * it's already loading
-      // * there's nothing left to load
-      if (error || isLoading || !hasMore) return;
-
-      // Checks that the page has scrolled to the bottom
-      if (
-        window.innerHeight + document.documentElement.scrollTop
-        === document.documentElement.offsetHeight
-      ) {
-        loadUsers();
-      }
-    };
+  componentDidMount() {
+    this.fetchMoreData()
   }
 
-  componentWillMount() {
-    // Loads some users on initial load
-    this.loadUsers();
-  }
-
-  loadUsers = () => {
-    this.setState({ isLoading: true }, () => {
-        axios.get('./data.json')
-        .then(res => {
-          const arts = res.data;
-          this.setState({
-            hasMore: (this.state.arts.length < 20),
-            isLoading: false,
-            arts
-          });
-        })
-        .catch((err) => {
-          this.setState({
-            error: err.message,
-            isLoading: false,
-           });
-        })
-    });
-  }
+  fetchMoreData = () => {
+    axios.get(`./data.json`)
+    .then(res => {
+      const items = res.data;
+      this.setState({ 
+        items
+      });
+    })
+    
+    if (this.state.items.length >= 5) {
+      this.setState({ hasMore: false });
+      return;
+    }
+    // a fake async api call like which sends
+    // 20 more records in .5 secs
+  };
 
   render() {
-    const {
-      error,
-      hasMore,
-      isLoading,
-      arts,
-    } = this.state;
-
     return (
       <div className="App">
         <div className="container">
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
           <div className="header">
-            <img className="header-image" src="images/konst/header.jpg" alt="" />
+            <img className="header-image" src="/images/konst/header.jpg" alt="" />
             <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
           </div>
-          <div className="App-flow">
-            {/* this.state.arts.map(art => 
-              <Fragment key={art.id}>
-                <img
-                  alt={art.title}
-                  src={art.image}
-                />
-                <p>{art.title}</p>
-              </Fragment>
-            )*/}
-            {arts.map(art => (
-            <Fragment key={art.id}>
-              <div>
-                <img
-                  alt={art.title}
-                  src={art.image}
-                />
-                <p>{art.title}</p>
-              </div>
-            </Fragment>
-            ))}
-            {error &&
-              <div style={{ color: '#900' }}>
-                {error}
-              </div>
-            }
-            {isLoading &&
-              <div>Loading...</div>
-            }
-          </div>
-          {!hasMore &&
+          <InfiniteScroll
+            dataLength={this.state.items.length}
+            next={this.fetchMoreData}
+            hasMore={this.state.hasMore}
+            loader={<h4>Loading...</h4>}
+            endMessage={
               <div>
                 <footer>
                   <span>© 2018 Bo Hjalmar Fagerström</span>
@@ -126,6 +58,19 @@ class App extends Component {
                 <BooksFlow />
               </div>
             }
+            >
+            <div className="App-flow">
+              {this.state.items.map((item, index) => (
+                <div key={index}>
+                  <img
+                    alt={item.title}
+                    src={item.image}
+                  />
+                  <p>{item.title}</p>
+                </div>
+              ))}
+            </div>
+          </InfiniteScroll>
         </div>
       </div>
     );
