@@ -5,19 +5,19 @@ export class BooksFlow extends Component {
 
     const item = [
       {
-        image: "/images/bok/photo-2.jpg",
+        image: "images/bok/photo-2.jpg",
         title: "Diktcykel på franska.",
       },
       {
-        image: "/images/bok/photo-3.jpg",
+        image: "images/bok/photo-3.jpg",
         title: "Familjeliv med tennis.",
       },
       {
-        image: "/images/bok/photo-1.jpg",
+        image: "images/bok/photo-1.jpg",
         title: "Skönlitterär åtrå.",
       },
       {
-        image: "/images/bok/photo-4.jpg",
+        image: "images/bok/photo-4.jpg",
         title: "Scenen som skådeplats.",
       }
     ];
@@ -35,7 +35,7 @@ export class BooksFlow extends Component {
         <main>
           {list}
         </main>
-        <img className="bottom" src="/images/bok/photo-5.jpg" alt="" />
+        <img className="bottom" src="images/bok/photo-5.jpg" alt="" />
       </div>
     );
   }
