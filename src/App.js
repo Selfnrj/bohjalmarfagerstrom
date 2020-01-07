@@ -1,6 +1,9 @@
 import React, { Component, Fragment } from "react";
 
+
 import axios from 'axios';
+import SimpleReactLightbox from 'simple-react-lightbox'; // Import Simple React Lightbox
+import { SRLWrapper } from "simple-react-lightbox"; // Import SRLWrapper
 
 import { BooksFlow } from './Books';
 import './App.css';
@@ -71,6 +74,15 @@ class App extends Component {
   }
 
   render() {
+
+    const options = {
+      transitionTimingFunction: "ease",
+      slideTransitionSpeed: 1000,
+      buttonsIconPadding: "2px",
+      enablePanzoom: false,
+      hideControlsAfter: 0
+    };
+
     const {
       error,
       hasMore,
@@ -96,17 +108,22 @@ class App extends Component {
                 <p>{art.title}</p>
               </Fragment>
             )*/}
+            <SimpleReactLightbox>
+            <SRLWrapper options={options}>
             {arts.map(art => (
-            <Fragment key={art.id}>
-              <div>
-                <img
-                  alt={art.title}
-                  src={art.image}
-                />
-                <p>{art.title}</p>
-              </div>
-            </Fragment>
+              <Fragment key={art.id}>
+                <div className="art-image">
+                  <img
+                    alt={art.title}
+                    src={art.image}
+                  />
+                  <p>{art.title}</p>
+                </div>
+              </Fragment>
             ))}
+            </SRLWrapper>
+            </SimpleReactLightbox>
+
             {error &&
               <div style={{ color: '#900' }}>
                 {error}
