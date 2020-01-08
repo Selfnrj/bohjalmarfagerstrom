@@ -133,16 +133,15 @@ class App extends Component {
               <div>Loading...</div>
             }
           </div>
-          {!hasMore &&
-              <div>
-                <footer>
-                  <span>© 2018 Bo Hjalmar Fagerström</span>
-                  <span>Email: bohjalmar@hotmail.com</span>
-                </footer>
-                Hjo.
-                <BooksFlow />
-              </div>
-            }
+          {!hasMore && <div></div> }
+          <div>
+            <footer>
+              <span>© 2018 Bo Hjalmar Fagerström</span>
+              <span>Email: bohjalmar@hotmail.com</span>
+            </footer>
+            Hjo.
+            <BooksFlow />
+          </div>
         </div>
       </div>
     );
