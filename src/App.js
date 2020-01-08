@@ -70,7 +70,7 @@ class App extends Component {
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
           <div className="header">
             <img className="header-image" src="images/konst/header.jpg" alt="" />
-            <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke..</p>
+            <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
           </div>
           <div className="App-flow">
             {/* this.state.arts.map(art => 
