@@ -20,32 +20,6 @@ class App extends Component {
       isLoading: false,
       arts: [],
     };
-
-    // Binds our scroll event handler
-    window.onscroll = () => {
-      const {
-        loadUsers,
-        state: {
-          error,
-          isLoading,
-          hasMore,
-        },
-      } = this;
-
-      // Bails early if:
-      // * there's an error
-      // * it's already loading
-      // * there's nothing left to load
-      if (error || isLoading || !hasMore) return;
-
-      // Checks that the page has scrolled to the bottom
-      if (
-        window.innerHeight + document.documentElement.scrollTop
-        === document.documentElement.offsetHeight
-      ) {
-        loadUsers();
-      }
-    };
   }
 
   componentWillMount() {
@@ -96,7 +70,7 @@ class App extends Component {
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
           <div className="header">
             <img className="header-image" src="images/konst/header.jpg" alt="" />
-            <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
+            <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke..</p>
           </div>
           <div className="App-flow">
             {/* this.state.arts.map(art => 
