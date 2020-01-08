@@ -129,11 +129,9 @@ class App extends Component {
                 {error}
               </div>
             }
-            {isLoading &&
-              <div>Loading...</div>
-            }
+            {isLoading && <div>Loading...</div>}
+            {!hasMore && <div></div> }
           </div>
-          {!hasMore && <div></div> }
           <div>
             <footer>
               <span>© 2018 Bo Hjalmar Fagerström</span>
