@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import SimpleReactLightbox from 'simple-react-lightbox'; // Import Simple React Lightbox
+import { SRLWrapper } from "simple-react-lightbox"; // Import SRLWrapper
+
 export class BooksFlow extends Component {
   render() {
 
@@ -29,12 +32,22 @@ export class BooksFlow extends Component {
       </figure>
     );
 
+    const options = {
+      transitionTimingFunction: "ease",
+      slideTransitionSpeed: 1000,
+      buttonsIconPadding: "2px",
+      enablePanzoom: false,
+      hideControlsAfter: 0
+    };
+
     return (
       <div className="books">
         <p>Böcker</p>
-        <main>
-          {list}
-        </main>
+        <SimpleReactLightbox>
+          <SRLWrapper options={options}>
+            {list}
+          </SRLWrapper>
+        </SimpleReactLightbox>
         <img className="bottom" src="images/bok/photo-5.jpg" alt="" />
       </div>
     );
