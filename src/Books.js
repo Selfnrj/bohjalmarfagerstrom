@@ -13,7 +13,7 @@ export class BooksFlow extends Component {
       },
       {
         image: "images/bok/photo-3.jpg",
-        title: "Familjeliv med tennis.",
+        title: "Ambjörn (13år) tennisspelare",
       },
       {
         image: "images/bok/photo-1.jpg",
