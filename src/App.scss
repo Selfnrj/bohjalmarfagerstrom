@@ -74,25 +74,25 @@ img {
 
     figure {
       margin: 0;
-      padding: 0 20px;
       cursor: pointer;
     }
 
     @media only screen and (min-width: 640px) {
       display: flex;
-      align-items: center;
+      flex-wrap: wrap;
 
       figure {
-        width: 250px;
+        width: calc(25% - 30px);
+        margin-bottom: $gutter;
+        padding: 0 15px;
+
+        &:last-child {
+          width: 100%;
+          max-width: 800px;
+          margin: 0 auto;
+        }
       }
     }
-  }
-
-  .bottom {
-    max-width: 800px;
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: $gutter;
   }
 }
 

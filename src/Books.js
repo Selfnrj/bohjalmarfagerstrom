@@ -22,7 +22,11 @@ export class BooksFlow extends Component {
       {
         image: "images/bok/photo-4.jpg",
         title: "Scenen som skådeplats.",
-      }
+      },
+      {
+        image: "images/bok/photo-5.jpg",
+        title: " ",
+      },
     ];
 
     const list = item.map(({ image, title }, i) =>
@@ -48,7 +52,6 @@ export class BooksFlow extends Component {
             {list}
           </SRLWrapper>
         </SimpleReactLightbox>
-        <img className="bottom" src="images/bok/photo-5.jpg" alt="" />
       </div>
     );
   }
