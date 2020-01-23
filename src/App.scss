@@ -8,10 +8,14 @@ body {
 }
 
 .App {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
   text-align: center;
 }
 
 .App-title {
+  grid-column-start: 3;
+  grid-column-end: 11;
   font-weight: 100;
   font-feature-settings: "liga", "dlig";
 
@@ -25,14 +29,12 @@ body {
 }
 
 .header {
-  display: block;
-  margin-bottom: $gutter;
+  grid-column-start: 4;
+  grid-column-end: 10;
 
   img {
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
-    margin-bottom: $gutter;
   }
 
   p {
@@ -42,9 +44,9 @@ body {
 }
 
 .App-flow {
+  grid-column-start: 5;
+  grid-column-end: 9;
   list-style: none;
-  max-width: 550px;
-  margin: 0 auto;
 
   li {
     margin-bottom: $gutter;
@@ -58,12 +60,6 @@ img {
 
 .art-image {
   cursor: pointer;
-}
-
-.container {
-  max-width: 1060px;
-  margin: 0 auto;
-  padding: 0 $gutter/3;
 }
 
 .books {
@@ -97,7 +93,8 @@ img {
 }
 
 footer {
-  margin: 20px 0;
+  grid-column-start: 2;
+  grid-column-end: 10;
 
   span {
     margin: 0 10px;

@@ -66,7 +66,6 @@ class App extends Component {
 
     return (
       <div className="App">
-        <div className="container">
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
           <div className="header">
             <img className="header-image" src="images/konst/header.jpg" alt="" />
@@ -106,15 +105,12 @@ class App extends Component {
             {isLoading && <div>Loading...</div>}
             {!hasMore && <div></div> }
           </div>
-          <div>
-            <footer>
+          <footer>
               <span>© 2018 Bo Hjalmar Fagerström</span>
               <span>Email: bohjalmar@hotmail.com</span>
-            </footer>
             Hjo.
             <BooksFlow />
-          </div>
-        </div>
+          </footer>
       </div>
     );
   }
