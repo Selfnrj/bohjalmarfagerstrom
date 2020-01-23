@@ -46,7 +46,7 @@ export class BooksFlow extends Component {
 
     return (
       <div className="books">
-        <p>Böcker</p>
+        <h2>Böcker</h2>
         <SimpleReactLightbox>
           <SRLWrapper options={options}>
             {list}

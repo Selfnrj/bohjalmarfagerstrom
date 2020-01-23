@@ -20,6 +20,12 @@ body {
 	}
 }
 
+h2 {
+  font-size: 3em;
+  font-weight: 100;
+  font-feature-settings: "liga", "dlig";
+}
+
 .App-intro {
   font-size: large;
 }
@@ -58,6 +64,10 @@ img {
 
 .art-image {
   cursor: pointer;
+  
+  p {
+    margin: $gutter/6 0 $gutter/2;
+  }
 }
 
 .container {
@@ -70,7 +80,7 @@ img {
   margin-top: $gutter;
 
   > div {
-    margin: $gutter 0;
+    margin-bottom: $gutter;
 
     figure {
       margin: 0;

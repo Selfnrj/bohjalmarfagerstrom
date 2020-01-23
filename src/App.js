@@ -107,12 +107,12 @@ class App extends Component {
             {!hasMore && <div></div> }
           </div>
           <div>
-            <footer>
-              <span>© 2018 Bo Hjalmar Fagerström</span>
-              <span>Email: bohjalmar@hotmail.com</span>
-            </footer>
-            Hjo.
             <BooksFlow />
+            <footer>
+              <span>© 2020 Bo Hjalmar Fagerström</span>
+              <span>Email: bohjalmar@hotmail.com</span><br />
+              <span>Hjo.</span>
+            </footer>
           </div>
         </div>
       </div>
