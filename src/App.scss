@@ -113,3 +113,18 @@ footer {
     margin: 0 10px;
   }
 }
+
+.trees {
+  display: flex;
+  margin-bottom: 40px;
+
+  figure {
+    flex: 1;
+    margin: 0;
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

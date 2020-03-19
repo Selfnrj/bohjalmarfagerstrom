@@ -1,13 +1,11 @@
 import React, { Component, Fragment } from "react";
 
-
 import axios from 'axios';
 import SimpleReactLightbox from 'simple-react-lightbox'; // Import Simple React Lightbox
 import { SRLWrapper } from "simple-react-lightbox"; // Import SRLWrapper
 
 import { BooksFlow } from './Books';
 import './App.css';
-
 
 class App extends Component {
   constructor(props) {
@@ -69,8 +67,26 @@ class App extends Component {
         <div className="container">
           <h1 className="App-title">Bo Hjalmar Fagerström</h1>
           <div className="header">
-            <img className="header-image" src="images/konst/header.jpg" alt="" />
+            <picture>
+              <source className="header-image" srcset="images/konst/header.webp" type="image/webp" />
+              <source className="header-image" srcset="images/konst/header.jpg" type="image/jpeg" /> 
+              <img className="header-image" src="images/konst/header.jpg" alt="Alt Text!" />
+            </picture>
             <p>Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke.</p>
+          </div>
+          <div className="trees">
+            <figure>
+              <img className="header-image" src="images/konst/bild-29.jpg" alt="Alt Text!" />
+              <p></p>
+            </figure>
+            <figure>
+              <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
+              <p></p>
+            </figure>
+            <figure>
+              <img className="header-image" src="images/konst/bild-30.jpg" alt="Alt Text!" />
+              <p></p>
+            </figure>   
           </div>
           <div className="App-flow">
             {/* this.state.arts.map(art => 
@@ -87,10 +103,9 @@ class App extends Component {
             {arts.map(art => (
               <Fragment key={art.id}>
                 <div className="art-image">
-                  <img
-                    alt={art.title}
-                    src={art.image}
-                  />
+                  <picture>
+                    <img src={art.image + ".jpg"} alt={art.title} />
+                  </picture>
                   <p>{art.title}</p>
                 </div>
               </Fragment>
