@@ -80,7 +80,7 @@ class App extends Component {
             </figure>
             <figure>
               <img className="header-image" src="images/konst/bild-30.jpg" alt="Alt Text!" />
-              <p>Träd</p>
+              <p>Träd 2020</p>
             </figure>
             <figure>
               <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
