@@ -120,16 +120,16 @@ class App extends Component {
             {!hasMore && <div></div> }
           </div>
           <div>
-            <div className="trees">
+            <div className="trees-bottom">
               <figure>
-                <img className="header-image" src="images/konst/bild-32.jpg" alt="Alt Text!" />
+                <img className="header-image" src="images/konst/bild-35.jpg" alt="Alt Text!" />
               </figure>
               <figure>
-                <img className="header-image" src="images/konst/bild-33.jpg" alt="Alt Text!" />
+                <img className="header-image" src="images/konst/bild-32.jpg" alt="Alt Text!" />
                 <p>Träd 2019</p>
               </figure>
               <figure>
-                <img className="header-image" src="images/konst/bild-34.jpg" alt="Alt Text!" />
+                <img className="header-image" src="images/konst/bild-36.jpg" alt="Alt Text!" />
               </figure>   
             </div>
             <BooksFlow />
