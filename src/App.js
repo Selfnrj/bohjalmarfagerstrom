@@ -79,11 +79,11 @@ class App extends Component {
               <img className="header-image" src="images/konst/bild-29.jpg" alt="Alt Text!" />
             </figure>
             <figure>
-              <img className="header-image" src="images/konst/bild-30.jpg" alt="Alt Text!" />
+              <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
               <p>Träd 2020</p>
             </figure>
             <figure>
-              <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
+              <img className="header-image" src="images/konst/bild-30.jpg" alt="Alt Text!" />
             </figure>   
           </div>
           <div className="App-flow">
@@ -120,6 +120,18 @@ class App extends Component {
             {!hasMore && <div></div> }
           </div>
           <div>
+            <div className="trees">
+              <figure>
+                <img className="header-image" src="images/konst/bild-32.jpg" alt="Alt Text!" />
+              </figure>
+              <figure>
+                <img className="header-image" src="images/konst/bild-33.jpg" alt="Alt Text!" />
+                <p>Träd 2019</p>
+              </figure>
+              <figure>
+                <img className="header-image" src="images/konst/bild-34.jpg" alt="Alt Text!" />
+              </figure>   
+            </div>
             <BooksFlow />
             <footer>
               <span>© 2020 Bo Hjalmar Fagerström</span>
