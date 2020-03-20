@@ -77,15 +77,13 @@ class App extends Component {
           <div className="trees">
             <figure>
               <img className="header-image" src="images/konst/bild-29.jpg" alt="Alt Text!" />
-              <p></p>
-            </figure>
-            <figure>
-              <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
-              <p></p>
             </figure>
             <figure>
               <img className="header-image" src="images/konst/bild-30.jpg" alt="Alt Text!" />
-              <p></p>
+              <p>Träd</p>
+            </figure>
+            <figure>
+              <img className="header-image" src="images/konst/bild-31.jpg" alt="Alt Text!" />
             </figure>   
           </div>
           <div className="App-flow">
