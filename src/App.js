@@ -123,13 +123,15 @@ class App extends Component {
             <div className="trees-bottom">
               <figure>
                 <img className="header-image" src="images/konst/bild-35.jpg" alt="Alt Text!" />
+                <p>Un arbre cobalt 2019</p>
               </figure>
               <figure>
                 <img className="header-image" src="images/konst/bild-32.jpg" alt="Alt Text!" />
-                <p>Träd 2019</p>
+                <p>Arbre avec satellite 2019</p>
               </figure>
               <figure>
                 <img className="header-image" src="images/konst/bild-36.jpg" alt="Alt Text!" />
+                <p>Exode 3:1-6 2020</p>
               </figure>   
             </div>
             <BooksFlow />
