@@ -1,0 +1,175 @@
+{
+  "Header": [
+    { 
+      "title": "Bo Hjalmar Fagerström",
+      "image": "images/konst/header.jpg",
+      "description": "Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke."
+    }     
+  ], 
+  "TreesTop": [
+    { 
+      "image": "images/konst/bild-29.jpg",
+      "alt": "Träd röd",
+      "title": ""
+    },
+    {
+      "image": "images/konst/bild-30.jpg",
+      "alt": "Träd gröm",
+      "title": "Träd 2020"
+    },
+    {
+      "image": "images/konst/bild-31.jpg",
+      "alt": "Träd gul",
+      "title": ""
+    }      
+  ], 
+  "Art": [
+    {
+      "image": "images/konst/bild-2.jpg",
+      "title": "Soleil levant 1994 Soluppgång"
+    },
+    {
+      "image": "images/konst/bild-27.jpg",
+      "title": "Den trötte Kristus 1964"
+    },
+    {
+      "image": "images/konst/bild-4.jpg",
+      "title": "Maternité douloureuse 1979"
+    },
+    {
+      "image": "images/konst/bild-5.jpg",
+      "title": "Le Christ sublimé 2006"
+    },
+    {
+      "image": "images/konst/bild-26.jpg",
+      "title": "Catherine 1979"
+    },
+    {
+      "image": "images/konst/bild-28.jpg",
+      "title": "l´Ange gardien 1981"
+    },
+    {
+      "image": "images/konst/carré-blanc.jpg",
+      "title": "Carré blanc 2014"
+    },
+    {
+      "image": "images/konst/biptyque-blanc.jpg",
+      "title": "Diptyque blanc 2014"
+    },
+    {
+      "image": "images/konst/triptyque-blanc.jpg",
+      "title": "Triptyque blanc 2014"
+    },
+    {
+      "image": "images/konst/blackout.jpg",
+      "title": "Blackout 2014"
+    },
+    {
+      "image": "images/konst/bild-6.jpg",
+      "title": "Franciscus 1994"
+    },
+    {
+      "image": "images/konst/bild-9.jpg",
+      "title": "Têtes 1970"
+    },
+    {
+      "image": "images/konst/bild-11.jpg",
+      "title": "l´Oiseau pris par la patte 1973"
+    },
+    {
+      "image": "images/konst/bild-12.jpg",
+      "title": "La main grossissante 1973"
+    },
+    {
+      "image": "images/konst/bild-13.jpg",
+      "title": "l´Homme prudent 1973"
+    },
+    {
+      "image": "images/konst/bild-10.jpg",
+      "title": "l'Homme 1994"
+    },
+    {
+      "image": "images/konst/bild-14.jpg",
+      "title": "Le jaune d´oeuf digital 1975"
+    },
+    {
+      "image": "images/konst/bild-15.jpg",
+      "title": "Le sens sans sens avec un sens dense 1974"
+    },
+    {
+      "image": "images/konst/bild-16.jpg",
+      "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
+    },
+    {
+      "image": "images/konst/bild-17.jpg",
+      "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
+    },
+    {
+      "image": "images/konst/bild-18.jpg",
+      "title": "La croix ombilicale n´agite guère 1975"
+    },
+    {
+      "image": "images/konst/bild-19.jpg",
+      "title": "En chute libre 1977"
+    },
+    {
+      "image": "images/konst/bild-22.jpg",
+      "title": "Des anges 2006"
+    },
+    {
+      "image": "images/konst/bild-23.jpg",
+      "title": "Violons d´Ingres 2008"
+    },
+    {
+      "image": "images/konst/les-voisimes.jpg",
+      "title": "Les voisines 2007"
+    },
+    {
+      "image": "images/konst/bild-25.jpg",
+      "title": "Universums inre rymder 1992"
+    }
+  ],
+  "TreesBottom": [
+    {
+      "image": "images/konst/bild-35.jpg",
+      "title": "Un arbre cobalt 2019"
+    },
+    {
+      "image": "images/konst/bild-32.jpg",
+      "title": "Arbre avec satellite 2019"
+    },
+    {
+      "image": "images/konst/bild-36.jpg",
+      "title": "Exode 3:1-6 2020"
+    }      
+  ], 
+  "Books": [
+    {
+      "image": "images/bok/photo-2.jpg",
+      "title": "Diktcykel på franska."
+    },
+    {
+      "image": "images/bok/photo-3.jpg",
+      "title": "Ambjörn (13år) tennisspelare."
+    },
+    {
+      "image": "images/bok/photo-1.jpg",
+      "title": "Skönlitterär åtrå."
+    },
+    {
+      "image": "images/bok/photo-4.jpg",
+      "title": "Scenen som skådeplats."
+    },
+    {
+      "image": "images/bok/photo-5.jpg",
+      "title": "Bilderbok."
+    }       
+  ],
+  "Footer": [
+    { 
+      "copyright": "© 2020 Bo Hjalmar Fagerström",
+      "email": "Email: bohjalmar@hotmail.com",
+      "city": "Hjo."
+    }    
+  ]  
+}
