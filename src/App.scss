@@ -1,3 +1,4 @@
+// Variables
 $gutter: 64px;
 
 body {
@@ -14,37 +15,33 @@ body {
   padding: 0 $gutter/3;
 }
 
-.App-title {
-  font-weight: 100;
-  font-feature-settings: "liga", "dlig";
-
-  @media only screen and (min-width: 640px) {
-    font-size: 5em;
-	}
-}
-
 h2 {
   font-size: 2em;
   font-weight: 200;
   font-feature-settings: "liga", "dlig";
 }
 
-.App-intro {
-  font-size: large;
-}
-
 .header {
   display: block;
   margin-bottom: $gutter;
 
-  img {
+  &__title {
+    font-weight: 100;
+    font-feature-settings: "liga", "dlig";
+  
+    @media only screen and (min-width: 640px) {
+      font-size: 5em;
+    }
+  }
+
+  &__image {
     margin: 0 auto;
     width: 100%;
     max-width: 800px;
     margin-bottom: $gutter;
   }
 
-  p {
+  &__desc {
     max-width: 550px;
     margin: 0 auto;
   }

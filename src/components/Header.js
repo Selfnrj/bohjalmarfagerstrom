@@ -7,12 +7,12 @@ export class Header extends Component {
     return ( 
       <header>
         {
-          data.Header.map((header) => {
+          data.Header.map((header, i) => {
             return (
-              <div className="header">
-                <h1 className="App-title">{header.title}</h1>
-                <img className="header-image" src={header.image} alt={header.title} />
-                <p>{header.description}</p>
+              <div className="header" key={i}>
+                <h1 className="header__title">{header.title}</h1>
+                <img className="header__image" src={header.image} alt={header.title} />
+                <p className="header__desc">{header.description}</p>
               </div>
             );
           })

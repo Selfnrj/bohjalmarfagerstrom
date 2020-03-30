@@ -7,9 +7,9 @@ export class Footer extends Component {
     return ( 
       <footer>
         {
-          data.Footer.map((footer) => {
+          data.Footer.map((footer, i) => {
             return (
-              <div>
+              <div key={i}>
               <span>{footer.copyright}</span>
               <span>{footer.email}</span><br />
               <span>{footer.city}</span>
