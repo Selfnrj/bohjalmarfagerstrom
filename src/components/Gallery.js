@@ -1,18 +1,10 @@
 import React, { Component } from 'react';
-import data from "./../data"; 
 
 import SimpleReactLightbox from 'simple-react-lightbox'; // Import Simple React Lightbox
 import { SRLWrapper } from 'simple-react-lightbox'; // Import SRLWrapper
 
-export class ArtFlow extends Component {
+export class Gallery extends Component {  
   render() {
-
-    const items = data.Art.map((art, i) =>
-      <div className="art-image" key={i}>
-        <img src={art.image} alt={art.title} />
-        <p>{art.title}</p>
-      </div>
-    );
 
     const options = {
       transitionTimingFunction: "ease",
@@ -23,13 +15,23 @@ export class ArtFlow extends Component {
     };
 
     return ( 
-      <div className="App-flow">
+      <div className={this.props.class}>
+        {this.props.children}
         <SimpleReactLightbox>
           <SRLWrapper options={options}>
-            {items}
+            <section>
+              { this.props.name.map((gallery, i) => {
+                return (
+                  <figure key={i}>
+                    <img src={gallery.image} alt={gallery.title} />
+                    <p>{gallery.title}</p>
+                  </figure>
+                );
+              })}
+            </section>
           </SRLWrapper>
         </SimpleReactLightbox>
-      </div> 
+      </div>
     );
   }
 } 

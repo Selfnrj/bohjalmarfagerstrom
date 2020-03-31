@@ -47,13 +47,18 @@ h2 {
   }
 }
 
-.App-flow {
+.art {
   list-style: none;
   max-width: 550px;
   margin: 0 auto;
 
-  li {
-    margin-bottom: $gutter;
+  figure {
+    margin: 0;
+    margin-bottom: $gutter/2;
+
+    img {
+      cursor: pointer;
+    }
   }
 }
 
@@ -62,39 +67,30 @@ img {
   display: block;
 }
 
-.art-image {
-  cursor: pointer;
-  
-  p {
-    margin: $gutter/6 0 $gutter/2;
-  }
-}
-
 .books {
   margin-top: $gutter;
 
-  > div {
-    margin-bottom: $gutter;
+  figure {
+    margin: 0;
+    margin-bottom: $gutter/2;
+    cursor: pointer;
+  }
 
-    figure {
-      margin: 0;
-      cursor: pointer;
-    }
-
-    @media only screen and (min-width: 640px) {
+  @media only screen and (min-width: 640px) {
+    section {
       display: flex;
       flex-wrap: wrap;
+    }
 
-      figure {
-        width: calc(25% - 30px);
-        margin-bottom: $gutter;
-        padding: 0 15px;
+    figure {
+      width: calc(25% - 30px);
+      margin-bottom: $gutter;
+      padding: 0 15px;
 
-        &:last-child {
-          width: 100%;
-          max-width: 800px;
-          margin: 0 auto;
-        }
+      &:last-child {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
       }
     }
   }
@@ -109,28 +105,50 @@ footer {
 }
 
 .trees {
-  display: flex;
   margin-bottom: 40px;
 
   figure {
     flex: 1;
     margin: 0;
-    margin-right: 30px;
-    cursor: pointer;
+    margin-bottom: $gutter/2;
+
+    img {
+      cursor: pointer;
+    }
+
+    &:first-child {
+      p { display: none; }
+    }
 
     &:last-child {
       margin-right: 0;
+
+      p { display: none; }
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    section {
+      display: flex;
+    }
+
+    figure {
+      margin-bottom: 0;
+      margin-right: 30px; 
     }
   }
 }
 
 .trees-bottom {
-  display: flex;
   margin-top: 80px;
 
   figure {
     margin: 0;
-    margin-right: 30px;
+    margin-bottom: $gutter/2;
+
+    img {
+      cursor: pointer;
+    }
 
     &:nth-child(1) {
       flex-basis: 30%;
@@ -143,6 +161,17 @@ footer {
     &:nth-child(3) {
       flex-basis: 30%;
       margin-right: 0;
+    }
+  }
+
+  @media only screen and (min-width: 640px) {
+    section {
+      display: flex;
+    }
+
+    figure {
+      margin: 0;
+      margin-right: 30px; 
     }
   }
 }

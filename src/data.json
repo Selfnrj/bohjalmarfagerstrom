@@ -9,18 +9,16 @@
   "TreesTop": [
     { 
       "image": "images/konst/bild-29.jpg",
-      "alt": "Träd röd",
-      "title": ""
+      "title": "Träd röd"
     },
     {
       "image": "images/konst/bild-30.jpg",
-      "alt": "Träd gröm",
+      "alt": "Träd grön",
       "title": "Träd 2020"
     },
     {
       "image": "images/konst/bild-31.jpg",
-      "alt": "Träd gul",
-      "title": ""
+      "title": "Träd gul"
     }      
   ], 
   "Art": [

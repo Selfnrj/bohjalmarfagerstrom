@@ -1,10 +1,8 @@
 import React, { Component } from "react";
+import data from "./data"; 
 
 import { Header } from './components/Header';
-import { TreesTop } from './components/TreesTop';
-import { ArtFlow } from './components/Art';
-import { TreesBottom } from './components/TreesBottom';
-import { Books } from './components/Books';
+import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 
 import './App.css';
@@ -15,10 +13,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <TreesTop />
-        <ArtFlow />
-        <TreesBottom />
-        <Books />
+        <Gallery name={data.TreesTop} class="trees" />
+        <Gallery name={data.Art} class="art" />
+        <Gallery name={data.TreesBottom} class="trees-bottom" />
+        <Gallery name={data.Books} class="books">
+          <h2>Böcker</h2>
+        </Gallery>
         <Footer />
       </div>
     );
