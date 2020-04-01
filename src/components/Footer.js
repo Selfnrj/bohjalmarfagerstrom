@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "./../data"; 
 
+// Stateless component
 export const Footer = (props) => {
   return ( 
     <footer>

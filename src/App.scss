@@ -1,5 +1,8 @@
 // Variables
 $gutter: 64px;
+$baseColor: #333;
+
+
 
 body {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -21,6 +24,10 @@ h2 {
   font-feature-settings: "liga", "dlig";
 }
 
+a {
+  text-decoration: none;
+}
+
 .header {
   display: block;
   margin-bottom: $gutter;
@@ -28,6 +35,8 @@ h2 {
   &__title {
     font-weight: 100;
     font-feature-settings: "liga", "dlig";
+    text-align: center;
+    margin-bottom: 0;
   
     @media only screen and (min-width: 640px) {
       font-size: 5em;
@@ -44,6 +53,29 @@ h2 {
   &__desc {
     max-width: 550px;
     margin: 0 auto;
+  }
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $gutter/2;
+  border-bottom: solid 1px #cecece;
+
+  a {
+    display: block;
+    padding: $gutter/4 $gutter/2;
+    color: lighten($baseColor, 10%);
+    cursor: pointer;
+
+    &:hover {
+      color: $baseColor;
+    }
+
+    &.active {
+      border-bottom: solid 3px $baseColor;
+    }
   }
 }
 

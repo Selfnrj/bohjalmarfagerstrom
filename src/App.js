@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import data from "./data"; 
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Header } from './components/Header';
-import { Gallery } from './components/Gallery';
+import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
+import { Error } from './components/Error';
+import { Home } from './components/Home';
+import { Books } from './components/Books';
 
 import './App.css';
 
@@ -11,16 +13,17 @@ class App extends Component {
   render() {
 
     return (
-      <div className="App">
-        <Header />
-        <Gallery name={data.TreesTop} class="trees" />
-        <Gallery name={data.Art} class="art" />
-        <Gallery name={data.TreesBottom} class="trees-bottom" />
-        <Gallery name={data.Books} class="books">
-          <h2>Böcker</h2>
-        </Gallery>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Navigation />
+        <div className="App">
+          <Switch>
+            <Route path={"/"} component={Home} exact />
+            <Route path={"/books"} component={Books} />
+            <Route component={Error} />
+          </Switch>
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 }
