@@ -6,6 +6,8 @@ import { Footer } from './components/Footer';
 import { Error } from './components/Error';
 import { Home } from './components/Home';
 import { Books } from './components/Books';
+import { Bio } from './components/Bio';
+import { Quotes } from './components/Quotes';
 
 import './App.css';
 
@@ -19,6 +21,8 @@ class App extends Component {
           <Switch>
             <Route path={"/"} component={Home} exact />
             <Route path={"/books"} component={Books} />
+            <Route path={"/diktsamling"} component={Quotes} />
+            <Route path={"/biografi"} component={Bio} />
             <Route component={Error} />
           </Switch>
           <Footer />

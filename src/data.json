@@ -9,16 +9,15 @@
   "TreesTop": [
     { 
       "image": "images/konst/bild-29.jpg",
-      "title": "Träd röd"
+      "title": "Träd i vinterlandskap"
     },
     {
       "image": "images/konst/bild-31.jpg",
-      "alt": "Träd grön",
-      "title": "Träd 2020"
+      "title": "Högsommar"
     },
     {
       "image": "images/konst/bild-30.jpg",
-      "title": "Träd gul"
+      "title": "Grönskande träd"
     }      
   ], 
   "Art": [
@@ -44,7 +43,7 @@
     },
     {
       "image": "images/konst/bild-37.jpg",
-      "title": "l´Ange gardien 1981"
+      "title": "L´Ange visitant la petite marie"
     },
     {
       "image": "images/konst/bild-28.jpg",
@@ -167,6 +166,20 @@
       "title": "Bilderbok."
     }       
   ],
+  "Quotes": [
+    { 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+    },  
+    { 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+    },  
+    { 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+    },  
+    { 
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+    }  
+  ],  
   "Footer": [
     { 
       "copyright": "© 2020 Bo Hjalmar Fagerström",

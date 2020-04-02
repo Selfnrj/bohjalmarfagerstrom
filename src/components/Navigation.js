@@ -20,6 +20,8 @@ export class Navigation extends Component {
               <ul className="navbar">
                 <li><NavLink to="/" isActive={checkActive}>Hem</NavLink></li>
                 <li><NavLink to="/books">Böcker</NavLink></li>
+                {/* <li><NavLink to="/diktsamling">Diktsamling</NavLink></li>
+                <li><NavLink to="/biografi">Biografi</NavLink></li> */}
               </ul>
             </div>
           )

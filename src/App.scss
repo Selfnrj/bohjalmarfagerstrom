@@ -90,6 +90,8 @@ a {
 
     img {
       cursor: pointer;
+      max-height: 670px;
+      margin: 0 auto;
     }
   }
 }
@@ -148,14 +150,8 @@ footer {
       cursor: pointer;
     }
 
-    &:first-child {
-      p { display: none; }
-    }
-
     &:last-child {
       margin-right: 0;
-
-      p { display: none; }
     }
   }
 
@@ -206,4 +202,11 @@ footer {
       margin-right: 30px; 
     }
   }
+}
+
+.blockquote {
+  text-align: left;
+  background: #eee;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
