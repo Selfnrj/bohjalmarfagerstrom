@@ -22,10 +22,10 @@ export class Gallery extends Component {
             <section>
               { this.props.name.map((gallery, i) => {
                 return (
-                  <figure key={i}>
+                  <article key={i}>
                     <img src={gallery.image} alt={gallery.title} />
                     <p>{gallery.title}</p>
-                  </figure>
+                  </article>
                 );
               })}
             </section>

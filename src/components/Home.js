@@ -9,7 +9,7 @@ export class Home extends Component {
   render() {
 
     return (
-      <main>
+      <main className="fade-in">
         <Header />
         <Gallery name={data.TreesTop} class="trees" />
         <Gallery name={data.Art} class="art" />

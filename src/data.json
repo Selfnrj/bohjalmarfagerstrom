@@ -186,5 +186,13 @@
       "email": "Email: bohjalmar@hotmail.com",
       "city": "Hjo."
     }    
+  ],
+  "Bio": [
+    { 
+      "image": "images/artisten.jpg",
+      "artist": "Konstnären",
+      "desc": "är en dynamitard \nsom spränger sina egna ord i luften \noch sig själv i flera tankerikningar; \nhans tankeström störtar sig brant utför \ngenom en framåt skridande rotation \nmed inlagda studsar rakt uppåt; \nJagets treklang: ande, kropp och själ \nlever han in till samklang genom att \nleva ut dem var och en distinkt. \nLibertà.",
+      "email": "bohjalmar@hotmail.com"
+    }    
   ]  
 }

@@ -7,7 +7,7 @@ export class Books extends Component {
   render() {
 
     return ( 
-      <div>
+      <div class="fade-in">
         <Gallery name={data.Books} class="books" />
       </div>
     );
