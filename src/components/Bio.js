@@ -5,14 +5,15 @@ import data from "./../data";
 export const Bio = (props) => {
 
   return ( 
-    <section class="fade-in">
+    <section className="fade-in">
       { data.Bio.map((bio, i) => (
-          <div class="biografi" key={i}>
-            <img src={bio.image} alt={bio.artist} />
+          <div className="biografi" key={i}>
+            <div className="biografi__image">
+              <img src={bio.image} alt={bio.artist} />
+            </div>
             <section>
-              <p class="biografi__text"><b>{bio.artist}</b> {bio.desc}</p>
+              <p className="biografi__text"><b>{bio.artist}</b> {bio.desc}</p>
               <a href={`mailto:${bio.email}`}>{bio.email}</a>  
-              <p>Hjo</p>
             </section>
           </div>
         )

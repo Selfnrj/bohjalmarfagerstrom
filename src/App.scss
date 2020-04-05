@@ -1,17 +1,18 @@
 // Variables
 $gutter: 64px;
 $baseColor: #333;
+$linkColor: #007bff;
 $BaseFontFamily: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 
-html {
-  overflow-y: scroll;
-}
 
 body {
   font-family: $BaseFontFamily;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  overflow-y: scroll;  
 }
 
 .App {
@@ -24,7 +25,6 @@ body {
 h2 {
   font-size: 2em;
   font-weight: 200;
-  font-feature-settings: "liga", "dlig";
 }
 
 b {
@@ -33,6 +33,11 @@ b {
 
 a {
   text-decoration: none;
+  color: $linkColor;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .header {
@@ -41,11 +46,18 @@ a {
 
   &__title {
     font-weight: 100;
-    font-feature-settings: "liga", "dlig";
+    //font-feature-settings: "liga", "dlig";
     text-align: center;
     margin: 2rem 0 1rem;
     display: inline-block;
     letter-spacing: 4px;
+    
+    /**
+    * Firefox specific rule
+    */
+    @-moz-document url-prefix() {
+      letter-spacing: 3px;
+    }
   
     @media only screen and (min-width: 640px) {
       font-size: 5em;
@@ -56,7 +68,7 @@ a {
     margin: $gutter auto;
     margin-top: $gutter/2;
     width: 100%;
-    max-width: 708px;
+    max-width: 786px;
   }
 
   &__desc {
@@ -83,12 +95,8 @@ a {
   a {
     display: block;
     padding: $gutter/4 $gutter/2;
-    color: lighten($baseColor, 10%);
+    color: $baseColor;
     cursor: pointer;
-
-    &:hover {
-      color: $baseColor;
-    }
 
     &.active {
       border-top: solid 1px $baseColor;

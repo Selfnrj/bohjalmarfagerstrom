@@ -11,6 +11,7 @@ export class Gallery extends Component {
       slideTransitionSpeed: 1000,
       buttonsIconPadding: "2px",
       enablePanzoom: false,
+      showThumbnails: false,
       hideControlsAfter: 0
     };
 
