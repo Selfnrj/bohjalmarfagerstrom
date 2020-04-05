@@ -7,7 +7,6 @@ import { Error } from './components/Error';
 import { Home } from './components/Home';
 import { Books } from './components/Books';
 import { Bio } from './components/Bio';
-import { Quotes } from './components/Quotes';
 
 import './App.css';
 
