@@ -19,7 +19,7 @@ export class Navigation extends Component {
               <h1 className="header__title">{header.title}</h1>
               <ul className="navbar">
                 <li><NavLink to="/" isActive={checkActive}>Hem</NavLink></li>
-                <li><NavLink to="/books">Böcker</NavLink></li>
+                <li><NavLink to="/bocker">Böcker</NavLink></li>
                 {/* <li><NavLink to="/diktsamling">Diktsamling</NavLink></li>*/}
                 <li><NavLink to="/biografi">Biografi</NavLink></li> 
               </ul>
