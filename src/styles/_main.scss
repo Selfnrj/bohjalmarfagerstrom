@@ -1,24 +1,26 @@
 body {
-  font-family: $BaseFontFamily;
+  font-family: $baseFontFamily;
+  font-weight: $fontWeightRegular;
+  font-size: $baseFontSize;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-weight: 400;
+  
   overflow-y: scroll;  
 }
 
 .App {
   text-align: center;
-  max-width: 1080px;
+  max-width: $containerWidth;
   margin: 0 auto;
-  padding: 0 $gutter/3;
+  padding: 0 $baseGutter/3;
 }
 
 footer {
-  margin: 20px 0;
+  margin: $baseGutter 0;
 }
 
 .fade-in {

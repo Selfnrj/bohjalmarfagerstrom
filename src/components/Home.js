@@ -4,7 +4,6 @@ import data from "./../data";
 import { Gallery } from './Gallery';
 import { Header } from './Header';
 
-
 export class Home extends Component {
   render() {
 

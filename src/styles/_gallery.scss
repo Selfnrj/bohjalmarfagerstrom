@@ -5,7 +5,7 @@
 
   article {
     margin: 0;
-    margin-bottom: $gutter/2;
+    margin-bottom: $baseGutter;
 
     img {
       cursor: pointer;
@@ -16,12 +16,12 @@
 }
 
 .trees {
-  margin-bottom: 40px;
+  margin-bottom: $baseGutter*2;
 
   article {
     flex: 1;
     margin: 0;
-    margin-bottom: $gutter/2;
+    margin-bottom: $baseGutter/2;
 
     img {
       cursor: pointer;
@@ -39,16 +39,16 @@
 
     article {
       margin-bottom: 0;
-      margin-right: 30px; 
+      margin-right: $baseGutter; 
     }
   }
 }
 
 .trees-bottom {
-  margin-top: 80px;
+  margin-top: $baseGutter*3;
 
   article {
-    margin-bottom: $gutter/2;
+    margin-bottom: $baseGutter/2;
 
     img {
       cursor: pointer;
@@ -74,7 +74,7 @@
     }
 
     article {
-      margin-right: 30px; 
+      margin-right: $baseGutter; 
     }
   }
 }

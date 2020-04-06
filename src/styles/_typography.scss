@@ -1,16 +1,16 @@
 h1 {
-  font-size: 5rem;
-  font-weight: 100;
+  font-size: $heading1Size;
+  font-weight: $fontWeightThin;
   font-feature-settings: "liga", "dlig";
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: $heading2Size;
+  font-weight: $fontWeightLight;
 }
 
 b {
-  font-weight: 500;
+  font-weight: $fontWeightMedium;
 }
 
 a {
@@ -19,6 +19,14 @@ a {
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.lead {
+  font-size: $heading5Size;
+
+  @media only screen and (min-width: 640px) { 
+    font-size: $heading4Size;
   }
 }
 

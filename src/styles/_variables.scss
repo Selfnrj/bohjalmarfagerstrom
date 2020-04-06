@@ -1,6 +1,25 @@
-// Variables
-$gutter: 64px;
-$titelWidth: 800px;
+// Colors
 $baseColor: #333;
 $linkColor: #007bff;
-$BaseFontFamily: 'Roboto', sans-serif;
+$lightGray: #cecece;
+
+// Base
+$baseGutter: 2rem;
+$baseFontFamily: 'Roboto', sans-serif;
+$baseFontSize: 1rem;
+
+// Grid
+$titelWidth: 800px;
+$containerWidth: 1080px;
+
+// Headings
+$heading1Size: 5rem;
+$heading2Size: 2rem;
+$heading4Size: 1.4rem;
+$heading5Size: 1.2rem;
+
+// Font weights
+$fontWeightThin:    100;
+$fontWeightLight:   300;
+$fontWeightRegular: 400;
+$fontWeightMedium:  500;

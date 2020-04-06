@@ -12,7 +12,7 @@ export const Bio = (props) => {
               <img src={bio.image} alt={bio.artist} />
             </div>
             <section>
-              <p className="biografi__text"><b>{bio.artist}</b> {bio.desc}</p>
+              <p className="biografi__text lead"><b>{bio.artist}</b> {bio.desc}</p>
               <a href={`mailto:${bio.email}`}>{bio.email}</a>  
             </section>
           </div>

@@ -1,9 +1,9 @@
 .books {
-  margin-top: $gutter;
+  margin-top: $baseGutter*2;
 
   article {
     margin: 0;
-    margin-bottom: $gutter/2;
+    margin-bottom: $baseGutter;
     cursor: pointer;
   }
 
@@ -14,15 +14,16 @@
     }
 
     article {
-      width: calc(25% - 30px);
-      margin-bottom: $gutter;
-      padding: 0 15px;
+      flex: 1 0 20%;
+      margin-bottom: $baseGutter;
+
+      &:not(:first-child) {
+        margin-left: $baseGutter;
+      }
 
       &:last-child {
-        width: 100%;
-        //max-width: 800px;
-        margin: 0 auto;
-        margin-bottom: 4rem;
+        flex-basis: 100%;
+        margin: 0;
 
         p { display: none; }
       }
