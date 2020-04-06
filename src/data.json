@@ -165,21 +165,7 @@
       "image": "images/bok/photo-5.jpg",
       "title": "Bilderbok."
     }       
-  ],
-  "Quotes": [
-    { 
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-    },  
-    { 
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-    },  
-    { 
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-    },  
-    { 
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-    }  
-  ],  
+  ], 
   "Footer": [
     { 
       "copyright": "© 2020 Bo Hjalmar Fagerström",

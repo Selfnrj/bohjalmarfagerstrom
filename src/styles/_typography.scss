@@ -1,0 +1,28 @@
+h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  font-feature-settings: "liga", "dlig";
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+b {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: $linkColor;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

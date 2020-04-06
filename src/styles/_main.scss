@@ -1,0 +1,39 @@
+body {
+  font-family: $BaseFontFamily;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-weight: 400;
+  overflow-y: scroll;  
+}
+
+.App {
+  text-align: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 $gutter/3;
+}
+
+footer {
+  margin: 20px 0;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

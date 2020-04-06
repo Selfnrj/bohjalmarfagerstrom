@@ -1,0 +1,31 @@
+.books {
+  margin-top: $gutter;
+
+  article {
+    margin: 0;
+    margin-bottom: $gutter/2;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 640px) {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    article {
+      width: calc(25% - 30px);
+      margin-bottom: $gutter;
+      padding: 0 15px;
+
+      &:last-child {
+        width: 100%;
+        //max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+
+        p { display: none; }
+      }
+    }
+  }
+}
