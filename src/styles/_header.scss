@@ -41,6 +41,7 @@
   max-width: $titelWidth;
   padding: 0;
   margin: 0 auto;
+  margin-bottom: $baseGutter;
 
   @media only screen and (max-width: 640px) { 
     li {

@@ -13,9 +13,6 @@ export class Home extends Component {
         <Gallery name={data.TreesTop} class="trees" />
         <Gallery name={data.Art} class="art" />
         <Gallery name={data.TreesBottom} class="trees-bottom" />
-        <Gallery name={data.Books} class="books">
-          <h2>Böcker</h2>
-        </Gallery>
       </main>
     );
   }

@@ -20,11 +20,25 @@
       "title": "Arbre verdoyant"
     }      
   ], 
-  "Art": [
-    {
+  "Sculpture": [
+    { 
       "image": "images/konst/bild-2.jpg",
       "title": "Soleil levant 1994 Soluppgång"
     },
+    {
+      "image": "images/konst/bild-6.jpg",
+      "title": "Franciscus 1994"
+    },
+    {
+      "image": "images/konst/bild-10.jpg",
+      "title": "l'Homme 1994"
+    },
+    {
+      "image": "images/konst/bild-25.jpg",
+      "title": "Universums inre rymder 1992"
+    }      
+  ], 
+  "Art": [
     {
       "image": "images/konst/bild-27.jpg",
       "title": "Den trötte Kristus 1964"
@@ -66,10 +80,6 @@
       "title": "Blackout 2014"
     },
     {
-      "image": "images/konst/bild-6.jpg",
-      "title": "Franciscus 1994"
-    },
-    {
       "image": "images/konst/bild-9.jpg",
       "title": "Têtes 1970"
     },
@@ -84,10 +94,6 @@
     {
       "image": "images/konst/bild-13.jpg",
       "title": "l´Homme prudent 1973"
-    },
-    {
-      "image": "images/konst/bild-10.jpg",
-      "title": "l'Homme 1994"
     },
     {
       "image": "images/konst/bild-14.jpg",
@@ -124,10 +130,6 @@
     {
       "image": "images/konst/les-voisimes.jpg",
       "title": "Les voisines 2007"
-    },
-    {
-      "image": "images/konst/bild-25.jpg",
-      "title": "Universums inre rymder 1992"
     }
   ],
   "TreesBottom": [
