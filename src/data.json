@@ -22,6 +22,10 @@
   ], 
   "Trees": [
     {
+      "image": "images/konst/bild-42.jpg",
+      "title": "Broder träd 1964"
+    },
+    {
       "image": "images/arboretum/bild-33.jpg",
       "title": "Högsommar"
     }, 
@@ -64,6 +68,12 @@
       "title": "Universums inre rymder 1992"
     }      
   ], 
+  "Paris": [
+    {
+      "image": "images/konst/bild-11.jpg",
+      "title": "l´Oiseau pris par la patte 1973"
+    }     
+  ], 
   "Art": [
     {
       "image": "images/konst/bild-27.jpg",
@@ -74,12 +84,8 @@
       "title": "Maternité douloureuse 1979"
     },
     {
-      "image": "images/konst/bild-5.jpg",
+      "image": "images/konst/bild-5.jpxwg",
       "title": "Le Christ sublimé 2006"
-    },
-    {
-      "image": "images/konst/bild-42.jpg",
-      "title": "Den trötte Kristus 1964"
     },
     {
       "image": "images/konst/bild-26.jpg",
@@ -112,10 +118,6 @@
     {
       "image": "images/konst/bild-9.jpg",
       "title": "Têtes 1970"
-    },
-    {
-      "image": "images/konst/bild-11.jpg",
-      "title": "l´Oiseau pris par la patte 1973"
     },
     {
       "image": "images/konst/bild-12.jpg",

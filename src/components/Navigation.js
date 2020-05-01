@@ -18,11 +18,12 @@ export class Navigation extends Component {
             <div key={i}>
               <h1 className="header__title">{header.title}</h1>
               <ul className="navbar">
-                <li><NavLink to="/" isActive={checkActive}>Historisk</NavLink></li>
-                <li><NavLink to="/arboretum">Arboretum</NavLink></li>
+                <li><NavLink to="/" isActive={checkActive}>Biografi</NavLink></li> 
+                <li><NavLink to="/aterblick">Återblick</NavLink></li>
+                <li><NavLink to="/paristiden">Paristiden</NavLink></li>
                 <li><NavLink to="/skulpturer">Skulpturer</NavLink></li>
+                <li><NavLink to="/arboretum">Arboretum</NavLink></li>
                 <li><NavLink to="/bocker">Böcker</NavLink></li>
-                <li><NavLink to="/biografi">Biografi</NavLink></li> 
               </ul>
             </div>
           )

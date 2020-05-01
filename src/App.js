@@ -4,7 +4,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { Error } from './components/Error';
-import { Home } from './components/Home';
+import { Aterblick } from './components/Aterblick';
+import { Paris } from './components/Paris';
 import { Books } from './components/Books';
 import { Sculpture } from './components/Sculpture';
 import { Bio } from './components/Bio';
@@ -20,13 +21,13 @@ class App extends Component {
         <div className="App">
           <Navigation />
           <Switch>
-            <Route path={"/"} component={Home} exact />
+            <Route path={"/"} component={Bio} exact />
+            <Route path={"/aterblick"} component={Aterblick} />
+            <Route path={"/paristiden"} component={Paris} />
             <Route path={"/arboretum"} component={Arboretum} />
             <Route path={"/skulpturer"} component={Sculpture} />
             <Route path={"/bocker"} component={Books} />
-            <Route path={"/biografi"} component={Bio} />
             <Route component={Error} />
-            
           </Switch>
           <Footer />
         </div>
