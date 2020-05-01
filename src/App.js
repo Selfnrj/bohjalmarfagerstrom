@@ -8,6 +8,7 @@ import { Home } from './components/Home';
 import { Books } from './components/Books';
 import { Sculpture } from './components/Sculpture';
 import { Bio } from './components/Bio';
+import { Arboretum } from './components/Arboretum';
 
 import './App.css';
 
@@ -20,10 +21,12 @@ class App extends Component {
           <Navigation />
           <Switch>
             <Route path={"/"} component={Home} exact />
+            <Route path={"/arboretum"} component={Arboretum} />
             <Route path={"/skulpturer"} component={Sculpture} />
             <Route path={"/bocker"} component={Books} />
             <Route path={"/biografi"} component={Bio} />
             <Route component={Error} />
+            
           </Switch>
           <Footer />
         </div>

@@ -43,12 +43,6 @@
   margin: 0 auto;
   margin-bottom: $baseGutter;
 
-  @media only screen and (max-width: 640px) { 
-    li {
-      width: 33.333%;
-    }
-  }
-
   a {
     display: block;
     padding: $baseGutter/2 $baseGutter;
@@ -59,6 +53,15 @@
     &.active {
       border-top: solid 1px $baseColor;
       margin-top: -1px;
+    }
+  }
+
+  @media only screen and (max-width: 640px) { 
+    li {
+
+      a {
+        padding: $baseGutter/2 1.1rem;
+      }
     }
   }
 }

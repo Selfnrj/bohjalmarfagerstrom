@@ -8,17 +8,43 @@
   ], 
   "TreesTop": [
     { 
-      "image": "images/konst/bild-29.jpg",
+      "image": "images/arboretum/bild-29.jpg",
       "title": "Träd i snölandskap"
     },
     {
-      "image": "images/konst/bild-31.jpg",
+      "image": "images/arboretum/bild-31.jpg",
       "title": "Högsommar"
     },
     {
-      "image": "images/konst/bild-30.jpg",
+      "image": "images/arboretum/bild-30.jpg",
       "title": "Arbre verdoyant"
-    }      
+    }
+  ], 
+  "Trees": [
+    {
+      "image": "images/arboretum/bild-33.jpg",
+      "title": "Högsommar"
+    }, 
+    {
+      "image": "images/arboretum/bild-1.jpg",
+      "title": "Högsommar"
+    }, 
+    {
+      "image": "images/arboretum/bild-34.jpg",
+      "title": "Högsommar"
+    },
+    {
+      "image": "images/arboretum/bild-32.jpg",
+      "title": "Arbre avec satellite 2019"
+    },
+    {
+      "image": "images/arboretum/bild-35.jpg",
+      "title": "Un arbre cobalt 2019"
+    },
+    {
+      "image": "images/arboretum/bild-36.jpg",
+      "title": "Exode 3:1-6 2020"
+    }  
   ], 
   "Sculpture": [
     { 
@@ -50,6 +76,10 @@
     {
       "image": "images/konst/bild-5.jpg",
       "title": "Le Christ sublimé 2006"
+    },
+    {
+      "image": "images/konst/bild-42.jpg",
+      "title": "Den trötte Kristus 1964"
     },
     {
       "image": "images/konst/bild-26.jpg",
@@ -132,20 +162,6 @@
       "title": "Les voisines 2007"
     }
   ],
-  "TreesBottom": [
-    {
-      "image": "images/konst/bild-35.jpg",
-      "title": "Un arbre cobalt 2019"
-    },
-    {
-      "image": "images/konst/bild-32.jpg",
-      "title": "Arbre avec satellite 2019"
-    },
-    {
-      "image": "images/konst/bild-36.jpg",
-      "title": "Exode 3:1-6 2020"
-    }      
-  ], 
   "Books": [
     {
       "image": "images/bok/photo-2.jpg",
