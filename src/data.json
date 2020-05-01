@@ -22,10 +22,6 @@
   ], 
   "Trees": [
     {
-      "image": "images/konst/bild-42.jpg",
-      "title": "Broder träd 1964"
-    },
-    {
       "image": "images/arboretum/bild-33.jpg",
       "title": "Högsommar"
     }, 
@@ -38,17 +34,32 @@
       "title": "Högsommar"
     },
     {
-      "image": "images/arboretum/bild-32.jpg",
-      "title": "Arbre avec satellite 2019"
-    },
+      "image": "images/arboretum/bild-43.jpg",
+      "title": "Högsommar"
+    }, 
+    {
+      "image": "images/arboretum/bild-44.jpg",
+      "title": "Högsommar"
+    }, 
+    {
+      "image": "images/arboretum/bild-45.jpg",
+      "title": "Högsommar"
+    } 
+    
+  ], 
+  "TreesBottom": [
     {
       "image": "images/arboretum/bild-35.jpg",
       "title": "Un arbre cobalt 2019"
     },
     {
+      "image": "images/arboretum/bild-32.jpg",
+      "title": "Arbre avec satellite 2019"
+    },
+    {
       "image": "images/arboretum/bild-36.jpg",
       "title": "Exode 3:1-6 2020"
-    }  
+    } 
   ], 
   "Sculpture": [
     { 
@@ -72,6 +83,38 @@
     {
       "image": "images/konst/bild-11.jpg",
       "title": "l´Oiseau pris par la patte 1973"
+    },
+    {
+      "image": "images/konst/bild-12.jpg",
+      "title": "La main grossissante 1973"
+    },
+    {
+      "image": "images/konst/bild-13.jpg",
+      "title": "l´Homme prudent 1973"
+    },
+    {
+      "image": "images/konst/bild-14.jpg",
+      "title": "Le jaune d´oeuf digital 1975"
+    },
+    {
+      "image": "images/konst/bild-15.jpg",
+      "title": "Le sens sans sens avec un sens dense 1974"
+    },
+    {
+      "image": "images/konst/bild-16.jpg",
+      "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
+    },
+    {
+      "image": "images/konst/bild-17.jpg",
+      "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
+    },
+    {
+      "image": "images/konst/bild-18.jpg",
+      "title": "La croix ombilicale n´agite guère 1975"
+    },
+    {
+      "image": "images/konst/bild-19.jpg",
+      "title": "En chute libre 1977"
     }     
   ], 
   "Art": [
@@ -84,7 +127,7 @@
       "title": "Maternité douloureuse 1979"
     },
     {
-      "image": "images/konst/bild-5.jpxwg",
+      "image": "images/konst/bild-5.jpg",
       "title": "Le Christ sublimé 2006"
     },
     {
@@ -118,38 +161,6 @@
     {
       "image": "images/konst/bild-9.jpg",
       "title": "Têtes 1970"
-    },
-    {
-      "image": "images/konst/bild-12.jpg",
-      "title": "La main grossissante 1973"
-    },
-    {
-      "image": "images/konst/bild-13.jpg",
-      "title": "l´Homme prudent 1973"
-    },
-    {
-      "image": "images/konst/bild-14.jpg",
-      "title": "Le jaune d´oeuf digital 1975"
-    },
-    {
-      "image": "images/konst/bild-15.jpg",
-      "title": "Le sens sans sens avec un sens dense 1974"
-    },
-    {
-      "image": "images/konst/bild-16.jpg",
-      "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
-    },
-    {
-      "image": "images/konst/bild-17.jpg",
-      "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
-    },
-    {
-      "image": "images/konst/bild-18.jpg",
-      "title": "La croix ombilicale n´agite guère 1975"
-    },
-    {
-      "image": "images/konst/bild-19.jpg",
-      "title": "En chute libre 1977"
     },
     {
       "image": "images/konst/bild-22.jpg",

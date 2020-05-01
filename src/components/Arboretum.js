@@ -10,6 +10,7 @@ export class Arboretum extends Component {
       <div class="fade-in">
         <Gallery name={data.TreesTop} class="trees" />
         <Gallery name={data.Trees} class="art" />
+        <Gallery name={data.TreesBottom} class="trees-bottom" />
       </div>
     );
   }
