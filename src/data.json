@@ -63,57 +63,57 @@
   ], 
   "Sculpture": [
     { 
-      "image": "images/konst/bild-2.jpg",
+      "image": "images/skulpturer/bild-2.jpg",
       "title": "Soleil levant 1994 Soluppgång"
     },
     {
-      "image": "images/konst/bild-6.jpg",
+      "image": "images/skulpturer/bild-6.jpg",
       "title": "Franciscus 1994"
     },
     {
-      "image": "images/konst/bild-10.jpg",
+      "image": "images/skulpturer/bild-10.jpg",
       "title": "l'Homme 1994"
     },
     {
-      "image": "images/konst/bild-25.jpg",
+      "image": "images/skulpturer/bild-25.jpg",
       "title": "Universums inre rymder 1992"
     }      
   ], 
   "Paris": [
     {
-      "image": "images/konst/bild-11.jpg",
+      "image": "images/paris/bild-11.jpg",
       "title": "l´Oiseau pris par la patte 1973"
     },
     {
-      "image": "images/konst/bild-12.jpg",
+      "image": "images/paris/bild-12.jpg",
       "title": "La main grossissante 1973"
     },
     {
-      "image": "images/konst/bild-13.jpg",
+      "image": "images/paris/bild-13.jpg",
       "title": "l´Homme prudent 1973"
     },
     {
-      "image": "images/konst/bild-14.jpg",
+      "image": "images/paris/bild-14.jpg",
       "title": "Le jaune d´oeuf digital 1975"
     },
     {
-      "image": "images/konst/bild-15.jpg",
+      "image": "images/paris/bild-15.jpg",
       "title": "Le sens sans sens avec un sens dense 1974"
     },
     {
-      "image": "images/konst/bild-16.jpg",
+      "image": "images/paris/bild-16.jpg",
       "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
     },
     {
-      "image": "images/konst/bild-17.jpg",
+      "image": "images/paris/bild-17.jpg",
       "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
     },
     {
-      "image": "images/konst/bild-18.jpg",
+      "image": "images/paris/bild-18.jpg",
       "title": "La croix ombilicale n´agite guère 1975"
     },
     {
-      "image": "images/konst/bild-19.jpg",
+      "image": "images/paris/bild-19.jpg",
       "title": "En chute libre 1977"
     }     
   ], 

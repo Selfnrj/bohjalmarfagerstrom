@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   border-top: solid 1px $lightGray;
-  max-width: $titelWidth;
+  max-width: $containerWidth;
   padding: 0;
   margin: 0 auto;
   margin-bottom: $baseGutter;
@@ -57,6 +57,11 @@
   }
 
   @media only screen and (max-width: 640px) { 
+    justify-content: flex-start;
+    overflow: hidden;
+    overflow-x: auto;
+    padding-top: 1px;
+
     li {
 
       a {
