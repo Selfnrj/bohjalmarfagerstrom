@@ -23,6 +23,7 @@ export class Navigation extends Component {
                 <li><NavLink to="/paristiden">Paristiden</NavLink></li>
                 <li><NavLink to="/skulpturer">Skulpturer</NavLink></li>
                 <li><NavLink to="/arboretum">Arboretum</NavLink></li>
+                <li><NavLink to="/redskap">Redskap</NavLink></li>
                 <li><NavLink to="/bocker">Böcker</NavLink></li>
               </ul>
             </div>

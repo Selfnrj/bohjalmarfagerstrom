@@ -10,6 +10,7 @@ import { Books } from './components/Books';
 import { Sculpture } from './components/Sculpture';
 import { Bio } from './components/Bio';
 import { Arboretum } from './components/Arboretum';
+import { Tools } from './components/Tools';
 
 import './App.css';
 
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path={"/paristiden"} component={Paris} />
             <Route path={"/arboretum"} component={Arboretum} />
             <Route path={"/skulpturer"} component={Sculpture} />
+            <Route path={"/redskap"} component={Tools} />
             <Route path={"/bocker"} component={Books} />
             <Route component={Error} />
           </Switch>
