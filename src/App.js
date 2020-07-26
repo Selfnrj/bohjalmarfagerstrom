@@ -27,7 +27,7 @@ class App extends Component {
             <Route path={"/paristiden"} component={Paris} />
             <Route path={"/arboretum"} component={Arboretum} />
             <Route path={"/skulpturer"} component={Sculpture} />
-            <Route path={"/redskap"} component={Tools} />
+            <Route path={"/surplus"} component={Tools} />
             <Route path={"/bocker"} component={Books} />
             <Route component={Error} />
           </Switch>
