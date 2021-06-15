@@ -1,252 +1,272 @@
 {
-  "Header": [
-    { 
-      "title": "Bo Hjalmar Fagerström",
-      "image": "images/konst/header.jpg",
-      "description": "Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke."
-    }     
-  ], 
-  "TreesTop": [
-    { 
-      "image": "images/arboretum/bild-29.jpg",
-      "title": "Träd i snölandskap"
-    },
-    {
-      "image": "images/arboretum/bild-31.jpg",
-      "title": "Högsommar"
-    },
-    {
-      "image": "images/arboretum/bild-30.jpg",
-      "title": "Arbre verdoyant"
-    }
-  ], 
-  "Trees": [
-    {
-      "image": "images/arboretum/bild-33.jpg",
-      "title": "Un prunier"
-    }, 
-    {
-      "image": "images/arboretum/bild-1.jpg",
-      "title": "Ett träd som skymmer solen"
-    }, 
-    {
-      "image": "images/arboretum/bild-34.jpg",
-      "title": "Höst"
-    },
-    {
-      "image": "images/arboretum/bild-43.jpg",
-      "title": "Un arbre carmin"
-    }, 
-    {
-      "image": "images/arboretum/bild-44.jpg",
-      "title": "Ett allmogeträd"
-    }, 
-    {
-      "image": "images/arboretum/bild-45.jpg",
-      "title": "Un arbre isolé à minuit"
-    }, 
-    {
-      "image": "images/arboretum/bild-46.jpg",
-      "title": "Dunge 2020"
-    },
-    {
-      "image": "images/arboretum/bild-47.jpg",
-      "title": "Alle' 2020"
-    }
-  ], 
-  "TreesBottom": [
-    {
-      "image": "images/arboretum/bild-35.jpg",
-      "title": "Un arbre cobalt 2019"
-    },
-    {
-      "image": "images/arboretum/bild-32.jpg",
-      "title": "Arbre avec satellite 2019"
-    },
-    {
-      "image": "images/arboretum/bild-36.jpg",
-      "title": "Exode 3:1-6 2020"
-    } 
-  ], 
-  "Sculpture": [
-    { 
-      "image": "images/skulpturer/bild-2.jpg",
-      "title": "Soleil levant 1994 Soluppgång"
-    },
-    {
-      "image": "images/skulpturer/bild-6.jpg",
-      "title": "Franciscus 1994"
-    },
-    {
-      "image": "images/skulpturer/bild-10.jpg",
-      "title": "l'Homme 1994"
-    },
-    {
-      "image": "images/skulpturer/bild-25.jpg",
-      "title": "Universums inre rymder 1992"
-    }      
-  ], 
-  "Tools": [
-    { 
-      "image": "images/redskap/bild-1.jpg",
-      "title": "Gul Paprika 2018"
-    },
-    {
-      "image": "images/redskap/bild-2.jpg",
-      "title": "Röda havet 2018"
-    },
-    {
-      "image": "images/redskap/bild-3.jpg",
-      "title": "Exotiskt träd 2019"
-    },
-    {
-      "image": "images/redskap/bild-4.jpg",
-      "title": "Före stormen 2019"
-    },
-    {
-      "image": "images/redskap/bild-5.jpg",
-      "title": "Orosmoln 2019"
-    },
-    {
-      "image": "images/redskap/bild-6.jpg",
-      "title": "La plage le matin 2019"
-    },
-    {
-      "image": "images/redskap/bild-7.jpg",
-      "title": "Strandäng; la chute d´Icare 2020"
-    }      
-  ], 
-  "Paris": [
-    {
-      "image": "images/paris/bild-11.jpg",
-      "title": "l´Oiseau pris par la patte 1973"
-    },
-    {
-      "image": "images/paris/bild-12.jpg",
-      "title": "La main grossissante 1973"
-    },
-    {
-      "image": "images/paris/bild-13.jpg",
-      "title": "l´Homme prudent 1973"
-    },
-    {
-      "image": "images/paris/bild-14.jpg",
-      "title": "Le jaune d´oeuf digital 1975"
-    },
-    {
-      "image": "images/paris/bild-15.jpg",
-      "title": "Le sens sans sens avec un sens dense 1974"
-    },
-    {
-      "image": "images/paris/bild-16.jpg",
-      "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
-    },
-    {
-      "image": "images/paris/bild-17.jpg",
-      "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
-    },
-    {
-      "image": "images/paris/bild-18.jpg",
-      "title": "La croix ombilicale n´agite guère 1975"
-    },
-    {
-      "image": "images/paris/bild-19.jpg",
-      "title": "En chute libre 1977"
-    }     
-  ], 
-  "Art": [
-    {
-      "image": "images/konst/bild-27.jpg",
-      "title": "Den trötte Kristus 1964"
-    },
-    {
-      "image": "images/konst/bild-4.jpg",
-      "title": "Maternité douloureuse 1979"
-    },
-    {
-      "image": "images/konst/bild-5.jpg",
-      "title": "Le Christ sublimé 2006"
-    },
-    {
-      "image": "images/konst/bild-26.jpg",
-      "title": "Catherine dans l´Aveyron 1979"
-    },
-    {
-      "image": "images/konst/bild-37.jpg",
-      "title": "L´Ange visitant la petite Marie"
-    },
-    {
-      "image": "images/konst/bild-28.jpg",
-      "title": "l´Ange gardien 1981"
-    },
-    {
-      "image": "images/konst/bild-38.jpg",
-      "title": "Carré blanc 2014"
-    },
-    {
-      "image": "images/konst/bild-39.jpg",
-      "title": "Diptyque blanc 2014"
-    },
-    {
-      "image": "images/konst/bild-40.jpg",
-      "title": "Triptyque blanc 2014"
-    },
-    {
-      "image": "images/konst/bild-41.jpg",
-      "title": "Blackout 2014"
-    },
-    {
-      "image": "images/konst/bild-9.jpg",
-      "title": "Têtes 1970"
-    },
-    {
-      "image": "images/konst/bild-22.jpg",
-      "title": "Des anges 2006"
-    },
-    {
-      "image": "images/konst/bild-23.jpg",
-      "title": "Violons d´Ingres 2008"
-    },
-    {
-      "image": "images/konst/les-voisimes.jpg",
-      "title": "Les voisines 2007"
-    }
-  ],
-  "Books": [
-    {
-      "image": "images/bok/photo-2.jpg",
-      "title": "Diktcykel på franska."
-    },
-    {
-      "image": "images/bok/photo-3.jpg",
-      "title": "Ambjörn (13år) tennisspelare."
-    },
-    {
-      "image": "images/bok/photo-1.jpg",
-      "title": "Skönlitterär åtrå."
-    },
-    {
-      "image": "images/bok/photo-4.jpg",
-      "title": "Scenen som skådeplats."
-    },
-    {
-      "image": "images/bok/photo-5.jpg",
-      "title": "Bilderbok."
-    }       
-  ], 
-  "Footer": [
-    { 
-      "copyright": "© 2020 Bo Hjalmar Fagerström",
-      "email": "Email: bohjalmar@hotmail.com",
-      "city": "Hjo."
-    }    
-  ],
-  "Bio": [
-    { 
-      "image": "images/artisten.jpg",
-      "artist": "Konstnären",
-      "desc": "är en dynamitard \nsom spränger sina egna ord i luften \noch sig själv i flera tankerikningar; \nhans tankeström störtar sig brant utför \ngenom en framåtskridande rotation \nmed inlagda studsar rakt uppåt; \nJagets treklang: ande, kropp och själ \nlever han in till samklang genom att \nleva ut dem var och en distinkt.",
-      "email": "bohjalmar@hotmail.com"
-    }    
-  ]  
+    "Header": [
+        {
+            "title": "Bo Hjalmar Fagerström",
+            "image": "images/konst/header.jpg",
+            "description": "Tanken på någon är större än någon i sig, även om jag begriper att varat i någon är större än min tanke."
+        }
+    ],
+    "TreesTop": [
+        {
+            "image": "images/arboretum/bild-29.jpg",
+            "title": "Träd i snölandskap"
+        },
+        {
+            "image": "images/arboretum/bild-31.jpg",
+            "title": "Högsommar"
+        },
+        {
+            "image": "images/arboretum/bild-30.jpg",
+            "title": "Arbre verdoyant"
+        }
+    ],
+    "Trees": [
+        {
+            "image": "images/arboretum/bild-33.jpg",
+            "title": "Un prunier"
+        },
+        {
+            "image": "images/arboretum/bild-1.jpg",
+            "title": "Ett träd som skymmer solen"
+        },
+        {
+            "image": "images/arboretum/bild-34.jpg",
+            "title": "Höst"
+        },
+        {
+            "image": "images/arboretum/bild-43.jpg",
+            "title": "Un arbre carmin"
+        },
+        {
+            "image": "images/arboretum/bild-44.jpg",
+            "title": "Ett allmogeträd"
+        },
+        {
+            "image": "images/arboretum/bild-45.jpg",
+            "title": "Un arbre isolé à minuit"
+        },
+        {
+            "image": "images/arboretum/bild-46.jpg",
+            "title": "Dunge 2020"
+        },
+        {
+            "image": "images/arboretum/bild-47.jpg",
+            "title": "Alle' 2020"
+        },
+        {
+            "image": "images/arboretum/bild-2.jpg",
+            "title": "Alle' 2020"
+        }
+    ],
+    "TreesBottom": [
+        {
+            "image": "images/arboretum/bild-35.jpg",
+            "title": "Un arbre cobalt 2019"
+        },
+        {
+            "image": "images/arboretum/bild-32.jpg",
+            "title": "Arbre avec satellite 2019"
+        },
+        {
+            "image": "images/arboretum/bild-36.jpg",
+            "title": "Exode 3:1-6 2020"
+        }
+    ],
+    "Sculpture": [
+        {
+            "image": "images/skulpturer/bild-2.jpg",
+            "title": "Soleil levant 1994 Soluppgång"
+        },
+        {
+            "image": "images/skulpturer/bild-6.jpg",
+            "title": "Franciscus 1994"
+        },
+        {
+            "image": "images/skulpturer/bild-10.jpg",
+            "title": "l'Homme 1994"
+        },
+        {
+            "image": "images/skulpturer/bild-25.jpg",
+            "title": "Universums inre rymder 1992"
+        }
+    ],
+    "Tools": [
+        {
+            "image": "images/redskap/bild-1.jpg",
+            "title": "Gul Paprika 2018"
+        },
+        {
+            "image": "images/redskap/bild-2.jpg",
+            "title": "Röda havet 2018"
+        },
+        {
+            "image": "images/redskap/bild-3.jpg",
+            "title": "Exotiskt träd 2019"
+        },
+        {
+            "image": "images/redskap/bild-4.jpg",
+            "title": "Före stormen 2019"
+        },
+        {
+            "image": "images/redskap/bild-5.jpg",
+            "title": "Orosmoln 2019"
+        },
+        {
+            "image": "images/redskap/bild-6.jpg",
+            "title": "La plage le matin 2019"
+        },
+        {
+            "image": "images/redskap/bild-7.jpg",
+            "title": "Strandäng; la chute d´Icare 2020"
+        },
+        {
+            "image": "images/redskap/bild-8.jpg",
+            "title": "Strandäng; la chute d´Icare 2020"
+        },
+        {
+            "image": "images/redskap/bild-9.jpg",
+            "title": "Strandäng; la chute d´Icare 2020"
+        },
+        {
+            "image": "images/redskap/bild-10.jpg",
+            "title": "Strandäng; la chute d´Icare 2020"
+        },
+        {
+            "image": "images/redskap/bild-11.jpg",
+            "title": "Strandäng; la chute d´Icare 2020"
+        }
+    ],
+    "Paris": [
+        {
+            "image": "images/paris/bild-11.jpg",
+            "title": "l´Oiseau pris par la patte 1973"
+        },
+        {
+            "image": "images/paris/bild-12.jpg",
+            "title": "La main grossissante 1973"
+        },
+        {
+            "image": "images/paris/bild-13.jpg",
+            "title": "l´Homme prudent 1973"
+        },
+        {
+            "image": "images/paris/bild-14.jpg",
+            "title": "Le jaune d´oeuf digital 1975"
+        },
+        {
+            "image": "images/paris/bild-15.jpg",
+            "title": "Le sens sans sens avec un sens dense 1974"
+        },
+        {
+            "image": "images/paris/bild-16.jpg",
+            "title": "Le jaune d´oeuf crânien et le jaune d´oeuf carré 1975"
+        },
+        {
+            "image": "images/paris/bild-17.jpg",
+            "title": "l´Aller te demande avant que le Retour ne le fasse 1975"
+        },
+        {
+            "image": "images/paris/bild-18.jpg",
+            "title": "La croix ombilicale n´agite guère 1975"
+        },
+        {
+            "image": "images/paris/bild-19.jpg",
+            "title": "En chute libre 1977"
+        }
+    ],
+    "Art": [
+        {
+            "image": "images/konst/bild-27.jpg",
+            "title": "Den trötte Kristus 1964"
+        },
+        {
+            "image": "images/konst/bild-4.jpg",
+            "title": "Maternité douloureuse 1979"
+        },
+        {
+            "image": "images/konst/bild-5.jpg",
+            "title": "Le Christ sublimé 2006"
+        },
+        {
+            "image": "images/konst/bild-26.jpg",
+            "title": "Catherine dans l´Aveyron 1979"
+        },
+        {
+            "image": "images/konst/bild-37.jpg",
+            "title": "L´Ange visitant la petite Marie"
+        },
+        {
+            "image": "images/konst/bild-28.jpg",
+            "title": "l´Ange gardien 1981"
+        },
+        {
+            "image": "images/konst/bild-38.jpg",
+            "title": "Carré blanc 2014"
+        },
+        {
+            "image": "images/konst/bild-39.jpg",
+            "title": "Diptyque blanc 2014"
+        },
+        {
+            "image": "images/konst/bild-40.jpg",
+            "title": "Triptyque blanc 2014"
+        },
+        {
+            "image": "images/konst/bild-41.jpg",
+            "title": "Blackout 2014"
+        },
+        {
+            "image": "images/konst/bild-9.jpg",
+            "title": "Têtes 1970"
+        },
+        {
+            "image": "images/konst/bild-22.jpg",
+            "title": "Des anges 2006"
+        },
+        {
+            "image": "images/konst/bild-23.jpg",
+            "title": "Violons d´Ingres 2008"
+        },
+        {
+            "image": "images/konst/les-voisimes.jpg",
+            "title": "Les voisines 2007"
+        }
+    ],
+    "Books": [
+        {
+            "image": "images/bok/photo-2.jpg",
+            "title": "Diktcykel på franska."
+        },
+        {
+            "image": "images/bok/photo-3.jpg",
+            "title": "Ambjörn (13år) tennisspelare."
+        },
+        {
+            "image": "images/bok/photo-1.jpg",
+            "title": "Skönlitterär åtrå."
+        },
+        {
+            "image": "images/bok/photo-4.jpg",
+            "title": "Scenen som skådeplats."
+        },
+        {
+            "image": "images/bok/photo-5.jpg",
+            "title": "Bilderbok."
+        }
+    ],
+    "Footer": [
+        {
+            "copyright": "© 2020 Bo Hjalmar Fagerström",
+            "email": "Email: bohjalmar@hotmail.com",
+            "city": "Hjo."
+        }
+    ],
+    "Bio": [
+        {
+            "image": "images/artisten.jpg",
+            "artist": "Konstnären",
+            "desc": "är en dynamitard \nsom spränger sina egna ord i luften \noch sig själv i flera tankerikningar; \nhans tankeström störtar sig brant utför \ngenom en framåtskridande rotation \nmed inlagda studsar rakt uppåt; \nJagets treklang: ande, kropp och själ \nlever han in till samklang genom att \nleva ut dem var och en distinkt.",
+            "email": "bohjalmar@hotmail.com"
+        }
+    ]
 }
