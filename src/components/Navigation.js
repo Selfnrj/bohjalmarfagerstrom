@@ -36,7 +36,7 @@ export class Navigation extends Component {
                             </li>
                             <li>
                                 <NavLink to="/lartabstrait">
-                                    L'art abstrait
+                                    l'Art abstrait
                                 </NavLink>
                             </li>
                             <li>
