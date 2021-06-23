@@ -50,11 +50,11 @@
             "title": "Dunge 2020"
         },
         {
-            "image": "images/arboretum/bild-47.jpg",
-            "title": "Alle' 2020"
+            "image": "images/arboretum/bild-2.jpg",
+            "title": "Arbre illuminé 2021"
         },
         {
-            "image": "images/arboretum/bild-2.jpg",
+            "image": "images/arboretum/bild-47.jpg",
             "title": "Alle' 2020"
         }
     ],
@@ -120,12 +120,12 @@
             "title": "Strandäng; la chute d´Icare 2020"
         },
         {
-            "image": "images/redskap/bild-8.jpg",
-            "title": "Stubbe 2021"
-        },
-        {
             "image": "images/redskap/bild-9.jpg",
             "title": "Fågel i snölandskap 2021"
+        },
+        {
+            "image": "images/redskap/bild-8.jpg",
+            "title": "Vildsvin 2021"
         },
         {
             "image": "images/redskap/bild-10.jpg",
@@ -257,7 +257,7 @@
     "Footer": [
         {
             "copyright": "© 2020 Bo Hjalmar Fagerström",
-            "email": "Email: bohjalmar@hotmail.com",
+            "email": "Email: bohjalmarfagerstrom@gmail.com",
             "city": "Hjo."
         }
     ],
@@ -266,7 +266,7 @@
             "image": "images/artisten.jpg",
             "artist": "Konstnären",
             "desc": "är en dynamitard \nsom spränger sina egna ord i luften \noch sig själv i flera tankerikningar; \nhans tankeström störtar sig brant utför \ngenom en framåtskridande rotation \nmed inlagda studsar rakt uppåt; \nJagets treklang: ande, kropp och själ \nlever han in till samklang genom att \nleva ut dem var och en distinkt.",
-            "email": "bohjalmar@hotmail.com"
+            "email": "bohjalmarfagerstrom@gmail.com"
         }
     ]
 }
