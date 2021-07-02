@@ -26,16 +26,16 @@
             "title": "Un prunier"
         },
         {
-            "image": "images/arboretum/bild-1.jpg",
-            "title": "Ett träd som skymmer solen"
-        },
-        {
             "image": "images/arboretum/bild-34.jpg",
             "title": "Höst"
         },
         {
             "image": "images/arboretum/bild-43.jpg",
             "title": "Un arbre carmin"
+        },
+        {
+            "image": "images/arboretum/bild-1.jpg",
+            "title": "Ett träd som skymmer solen"
         },
         {
             "image": "images/arboretum/bild-44.jpg",
@@ -125,7 +125,7 @@
         },
         {
             "image": "images/redskap/bild-8.jpg",
-            "title": "Vildsvin 2021"
+            "title": "Vildsvinsskalle 2021"
         },
         {
             "image": "images/redskap/bild-10.jpg",
