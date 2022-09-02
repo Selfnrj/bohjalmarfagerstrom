@@ -56,6 +56,10 @@
         {
             "image": "images/arboretum/bild-47.jpg",
             "title": "Alle' 2020"
+        },
+        {
+            "image": "images/arboretum/bild-3.jpg",
+            "title": "Träffad av blixten"
         }
     ],
     "TreesBottom": [
@@ -134,6 +138,14 @@
         {
             "image": "images/redskap/bild-11.jpg",
             "title": "Brahms 2021"
+        },
+        {
+            "image": "images/redskap/bild-12.jpg",
+            "title": "Ressac norturne"
+        },
+        {
+            "image": "images/redskap/bild-13.jpg",
+            "title": "Ressac diurne"
         }
     ],
     "Paris": [

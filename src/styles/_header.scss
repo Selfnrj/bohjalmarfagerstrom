@@ -1,72 +1,71 @@
 .header {
-  display: block;
-  margin-bottom: $baseGutter*2;
+    display: block;
+    margin-bottom: $baseGutter * 2;
 
-  &__title {
-    text-align: center;
-    margin: $baseGutter 0 $baseGutter/2;
-    display: inline-block;
-    
-    /**
+    &__title {
+        text-align: center;
+        margin: $baseGutter 0 $baseGutter/2;
+        display: inline-block;
+
+        /**
     * Firefox specific rule
     */
-    @-moz-document url-prefix() {
-      letter-spacing: 0;
-    }
-  
-    @media only screen and (max-width: 640px) {
-      font-size: $heading2Size;
-      font-weight: $fontWeightLight;
-    }
-  }
+        @-moz-document url-prefix() {
+            letter-spacing: 0;
+        }
 
-  &__image {
-    margin: $baseGutter*2 auto;
-    margin-top: $baseGutter/2;
-    width: 100%;
-    max-width: $titelWidth;
-  }
+        @media only screen and (max-width: 640px) {
+            font-size: $heading2Size;
+            font-weight: $fontWeightLight;
+        }
+    }
 
-  &__desc {
-    max-width: 550px;
-    margin: 0 auto;
-  }
+    &__image {
+        margin: $baseGutter * 2 auto;
+        margin-top: $baseGutter/2;
+        width: 100%;
+        max-width: $titelWidth;
+    }
+
+    &__desc {
+        max-width: 550px;
+        margin: 0 auto;
+    }
 }
 
 .navbar {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  border-top: solid 1px $lightGray;
-  max-width: $containerWidth;
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: $baseGutter;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px $lightGray;
+    max-width: $containerWidth;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: $baseGutter;
 
-  a {
-    display: block;
-    padding: $baseGutter/2 $baseGutter;
-    color: $baseColor;
-    text-decoration: none !important;
-    cursor: pointer;
+    a {
+        display: block;
+        padding: $baseGutter/2 $baseGutter;
+        color: $baseColor;
+        text-decoration: none !important;
+        cursor: pointer;
 
-    &.active {
-      border-top: solid 1px $baseColor;
-      margin-top: -1px;
+        &.active {
+            border-top: solid 1px $baseColor;
+            margin-top: -1px;
+        }
     }
-  }
 
-  @media only screen and (max-width: 640px) { 
-    justify-content: flex-start;
-    overflow: hidden;
-    overflow-x: auto;
-    padding-top: 1px;
+    @media only screen and (max-width: 640px) {
+        justify-content: flex-start;
+        overflow: hidden;
+        overflow-x: auto;
+        padding-top: 1px;
 
-    li {
-
-      a {
-        padding: $baseGutter/2 1.1rem;
-      }
+        li {
+            a {
+                padding: $baseGutter/2 1.1rem;
+            }
+        }
     }
-  }
 }
